@@ -83,7 +83,7 @@
             label = "Nav";
             bindings = <
   &none             &kp EXCL    &kp AT     &kp HASH    &kp DLLR       &kp PRCNT       &kp CARET       &kp AMPS       &kp STAR    &kp LPAR   &kp RPAR       &kp MINUS
-  &none             &none       &kp LBRC   &kp LBKT    &kp LPAR       &none           &none           &kp LPAR       &kp RBKT    &kp RBRC   &none          &none
+  &none             &none       &kp LBRC   &kp LBKT    &kp LPAR       &none           &none           &kp RPAR       &kp RBKT    &kp RBRC   &none          &none
   &none             &none       &none      &none       &none          &none           &none           &none          &none       &none      &none          &none
   &none             &none       &none      &none       &none                &none                     &none          &none       &none      &none          &none
             >;
@@ -92,10 +92,10 @@
         num_layer {
             label = "Num";
             bindings = <
-  &none             &none       &none       &none       &none          &none          &none    &kp N7     &kp N8      &kp N9       &none     &none
-  &none             &none       &none       &none       &none          &none          &none    &kp N4     &kp N5      &kp N6       &none     &none
-  &none             &none       &none       &none       &none          &none          &none    &kp N1     &kp N2      &kp N3       &none     &none
-  &none             &none       &none       &none       &none               &none              &kp N0     &none       &none        &none     &none
+  &none             &none       &none       &none       &none          &none          &none    &kp N7     &kp N8      &kp N9       &kp EQUAL     &kp BKSP
+  &none             &none       &none       &none       &none          &none          &none    &kp N4     &kp N5      &kp N6       &kp MINUS     &none
+  &none             &none       &none       &none       &none          &none          &none    &kp N1     &kp N2      &kp N3       &none         &none
+  &none             &none       &none       &none       &none               &none              &kp N0     &none       &none        &none         &none
             >;
         };
 
